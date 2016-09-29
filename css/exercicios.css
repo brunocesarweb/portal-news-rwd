@@ -33,7 +33,6 @@ img{
 .menu-principal li {
     float: left;
 }
-
 header {
     padding: 0.5em 0;
 }
@@ -42,4 +41,25 @@ header {
 }
 .barra-nav {
     margin: 0.4em 0;
+}
+
+/*Aula 3*/
+.secao {
+    width: 100%;
+}
+@media (min-width: 600px) {
+    html {
+        font-size: 1.125em;
+    }
+    .secao {
+        width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    html {
+        font-size: 1.25em;
+    }
+    .secao {
+        width: 33.333%;
+    }
 }
